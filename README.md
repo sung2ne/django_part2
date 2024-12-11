@@ -10,15 +10,10 @@ https://wikidocs.net/267751
 pip install django
 ```
 
-## 프로젝트 생성
-
-```bash
-django-admin startproject mysite
-```
-
 ## 마이그레이션
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
